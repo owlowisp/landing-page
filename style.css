@@ -117,3 +117,74 @@ h2 {
   border: 5px solid rgb(0, 140, 255);
   border-radius: 20px;
 }
+
+/* --------------------------------------------- */
+
+.quotesec {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 400px;
+  min-height: 400px;
+}
+
+.quotesec p {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.quotesec h3 {
+  font-size: 20px;
+  margin: 0px 0px 0px auto;
+}
+
+/* --------------------------------------------- */
+
+.signupsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 350px;
+}
+
+.bluebox {
+  background-color: rgb(29, 119, 255);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 180px;
+  border-radius: 20px;
+  align-items: center;
+  gap: 30px;
+}
+
+.bluebox h3 {
+  margin: 0px;
+  font-size: 24px;
+}
+
+.bluebox p {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+.bluebox button {
+  padding: 8px 20px;
+  color: white;
+  background-color: transparent;
+  border: 2px white solid;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: rgb(2, 2, 34);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
