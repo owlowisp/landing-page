@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 .topsec {
   background-color: rgb(32, 32, 49);
   color: white;
@@ -49,6 +54,11 @@ h1 {
   margin-bottom: 0px;
 }
 
+.rightland {
+  display: flex;
+  align-items: center;
+}
+
 .rightland img {
   max-width: 100%;
 }
@@ -72,15 +82,38 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 30px 350px 100px 350px;
-  row-gap: 100px;
+  justify-content: center;
+  padding: 40px 350px;
+  row-gap: 40px;
 }
 
 .imgheader {
-  margin: auto;
+margin: auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
 }
 
 .images {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+.images div {
+  display: flex;
+  flex-flow: column wrap;
+  width: 180px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.images div img {
+  height: 180px;
+  width: 180px;
+  border: 5px solid rgb(0, 140, 255);
+  border-radius: 20px;
 }
